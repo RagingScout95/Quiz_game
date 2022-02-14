@@ -67,5 +67,3 @@ if score  == 5:
     print("Wow You got all correct answers!!\n\n")
 else:
     print("you got {} out of 5 \n\n".format(score))
-x = 4 + 3 % 5
-print(x)
