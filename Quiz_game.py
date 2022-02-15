@@ -1,6 +1,5 @@
 from os import system
 import time
-from tkinter.messagebox import QUESTION
 
 system('cls') # clearing terminal
 print("\n========== Welcome to Python quiz ==========\n")
