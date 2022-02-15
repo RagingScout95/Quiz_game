@@ -1,4 +1,4 @@
-from os import system, name
+from os import system
 import time
 from tkinter.messagebox import QUESTION
 
@@ -8,7 +8,7 @@ print("\n========== Welcome to Python quiz ==========\n")
 # Asking player if they want to play or not 
 playing = input("Do you want to play? ")
 
-if playing.lower() != "yes":
+if playing.lower() != "yes" :
     print("\nOk Lets play later than Cya\n")
     quit() # this will terminate the whole program
 
